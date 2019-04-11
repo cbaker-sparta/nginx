@@ -2,8 +2,9 @@
 
 This file is used to list changes made in each version of the nginx cookbook.
 
-## 10.0.0-dev (2019-04-09)
+## Unreleased
 
+- Add CircleCI testings
 - Update kitchen to use chef solo
 - Support only OS with systemd
 - Drop support for Amazon Linux, CentOS 6
@@ -16,10 +17,6 @@ This file is used to list changes made in each version of the nginx cookbook.
 - Update nginx_site resource
 - Update default-site.erb template
 - Default recipe calls nginx_install resource
-
-## Unreleased
-
-- Add CircleCI testings
 
 ## 9.0.0 (2018-11-13)
 
