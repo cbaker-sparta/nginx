@@ -3,6 +3,7 @@
 default['nginx']['version']      = '1.12.1'
 default['nginx']['package_name'] = 'nginx'
 default['nginx']['port']         = '80'
+default['nginx']['proxy_port']   = '7000'
 default['nginx']['dir']          = '/etc/nginx'
 default['nginx']['script_dir']   = '/usr/sbin'
 default['nginx']['log_dir']      = '/var/log/nginx'
